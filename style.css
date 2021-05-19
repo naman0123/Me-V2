@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #1e1e1e;
+    font-family: 'PT Serif';
+    background-color: #ededed;
+}
+
+#quote {
+    width: 800px;
+    display: table;
+    position: absolute;
+    opacity: 0.4;
+    margin-left: -80px;
+}
+
+#quoteDiv h1 {
+    color: #a3a3a3;
+    margin: 20px;
+}
+
+.menu {
+    background-color: #d1d1d1;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    padding: 10px;
+    opacity: 0.8;
+    font-family: 'Open Sans';
+    margin-left: -10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: table;
+}
+
+.links {
+    display: inline-block;
+    padding-left: 33px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.links a {
+    color: #1e1e1e;
+}
+
+.links a:visited{
+    color: #1e1e1e;
+}
+
+#me {
+    width: 260px;
+    height: 245px;
+    box-shadow: 12px 9px 25px #adadad;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#me:hover {
+    box-shadow: 12px 9px 30px #969696;
+}
+
+#contact {
+    background-color: #1d1d1d;
+    color: #ededed;
+    font-family: 'Open Sans';
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: -25px;
+    margin-top: 18px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: table;
+}
+
+.contactList {
+    list-style: none;
+}
+
+a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ededed;
+    cursor: pointer;
+    text-shadow: 1.5px 0.5px 5px #b0b0b0;
+}
+
+a:visited {
+    color: #ededed;
+}
+
+.line{
+    padding: 3px;
+    height: 1px;
+    width: 30px;
+    background-color: #1e1e1e;
+    margin: 10px auto;
+}
+
+.break{
+    margin: auto;
+    height: 30px;
+}
+
+#inspiration span img{
+    height: 165px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 13px 9.5px 10px #adadad;
+    transition: all 0.35s ease-out;
+}
+
+#inspiration span img:hover{
+    cursor: pointer;
+    transform: scale(1.25, 1.25);
+}
